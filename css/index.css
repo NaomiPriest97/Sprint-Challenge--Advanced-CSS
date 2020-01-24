@@ -198,13 +198,23 @@ nav a {
 }
 footer {
   color: #22283B;
-  background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #808080;
+}
+@font-face {
+  font-family: 'Coustard';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Coustard Regular'), local('Coustard-Regular'), url(https://fonts.gstatic.com/s/coustard/v10/3XFpErgg3YsZ5fqUU-UIt2E.ttf) format('truetype');
+}
+.home {
+  font-family: 'Coustard', serif;
 }
 .home .intro a img {
   border-radius: 10px;
